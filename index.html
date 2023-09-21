@@ -1,0 +1,23 @@
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+<script type="text/javascript" src="http://tester3.yolasite.com/resources/javascript/jtruncate.js"></script>
+
+<script type="text/javascript"> 
+// Settings for script 
+$(document).ready(function() { 
+$('.text').jTruncate({ 
+length: 5, /* The number of characters to display before truncating. */ 
+
+minTrail: 0, /* The minimum number of "extra" characters required to truncate. This option allows you to prevent truncation of a section of text that is only a few characters longer than the specified length. */ 
+
+moreText: "Read More", // The text to use for the "more" link. 
+lessText: "Read Less", // The text to use for the "less" link. 
+ellipsisText: "...", // The text to append to the truncated portion. 
+}); 
+}); 
+
+</script> 
+<p class="text">Hello, h Here is some more nnnn text</p>
+ 
+
+
+
